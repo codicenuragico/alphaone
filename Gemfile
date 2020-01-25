@@ -14,6 +14,8 @@ gem 'sass-rails', '>= 3.2'
 gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'devise'
+gem "rack", ">= 1.6.12"
+
 
 group :development, :test do
   gem 'byebug'
